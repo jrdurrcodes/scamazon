@@ -1,0 +1,74 @@
+:root {
+    --grad:linear-gradient(var(--prim), var(--sec)
+    --mainfont: "Oswald", system-ui;
+    --prim: red;
+    --sec: #74a57f);
+    --tert: #eaeaea
+}
+
+*{box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-image {    
+height: 20vh;
+}
+
+.buy-btn {
+    color: var(--tert);
+}
+
+.card-h2 {
+    color: var(--ter);
+    background-color: var(--sec);
+}
+
+.cart-btn {
+    color: var(--tert);
+    background
+}
+
+.footer {
+
+}
+
+.header-link {
+    color: var(--tert);
+}
+
+.header-link:hover {
+    color: var(--sec);
+    border: 1px solid var(--sec);
+    border-radius: 5px;
+}
+
+.leads-item {
+
+}
+
+#header {
+    padding-top: 20;
+    padding: 8px 0;
+    background-color: var(--prim
+    );
+}   
+
+#logo {
+    margin: 0;
+    font-family: var(--maniFont);
+    font-size: calc(24px+ (36-24) ((100vw-300px)/ (1600-300));
+}
+
+#section1 {
+    padding: 8px 0;
+    background-color: var(--prim);
+}
+
+#section2 {
+
+}
+
+
